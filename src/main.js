@@ -5,7 +5,12 @@ import './index.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-library.add(faBars)
+import { faMapLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import { faMapPin } from '@fortawesome/free-solid-svg-icons'
+library.add(faBars,faMapLocationDot,faEnvelope,faPhone,faPaperPlane,faMapPin)
 
 const app = createApp(App)
 
@@ -53,3 +58,4 @@ themeToggleBtn.addEventListener('click', function() {
     }
     
 });
+
