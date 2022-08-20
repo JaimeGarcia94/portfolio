@@ -83,7 +83,7 @@ export default {
 };
 </script>
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto mb-12">
     <div class="text-center py-4">
       <h1
         class="
@@ -98,7 +98,6 @@ export default {
         Skills
       </h1>
     </div>
-
     <div
       class="
         grid

@@ -26,7 +26,7 @@ export default {
 };
 </script>
 <template>
-  <div class="container mx-auto mb-12">
+  <div class="container mx-auto mb-12 sm:mb-12 md:mb-12 lg:mb-32">
     <div class="text-center py-4">
       <h1
         class="
@@ -129,10 +129,10 @@ export default {
       </div>
     </div>
     <div class="font-general-sans-medium text-gray-400" v-else>
-      <p class="text-center mb-12">
+      <p class="text-center">
         Todavía no hay proyectos. Estamos trabajando en ellos.
       </p>
-      <img class="mx-auto mb-12" src="src/assets/img/herramientas.png" alt="" />
+      <img class="mx-auto" src="src/assets/img/herramientas.png" alt="" />
     </div>
   </div>
 </template>

@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="container mx-auto px-4">
+  <div class="container mx-auto px-4 mb-12">
     <div
       class="
         flex flex-col
@@ -46,7 +46,7 @@
             Desarrollador Full-Stack y amante de la tecnología
           </p>
           <div class="flex justify-center sm:block">
-            <button
+            <a href="#"
               class="
                 flex
                 justify-center
@@ -69,7 +69,6 @@
                 text-gray-500
                 hover:text-white
                 duration-500
-                font-general-sans-medium
               "
             >
               <svg
@@ -97,8 +96,8 @@
                 <polyline points="8 12 12 16 16 12"></polyline>
                 <line x1="12" y1="8" x2="12" y2="16"></line>
               </svg>
-              Descargar
-            </button>
+              <span class="text-sm sm:text-lg font-general-sans-medium duration-100">Descargar CV</span>
+            </a>
           </div>
         </div>
       </div>
