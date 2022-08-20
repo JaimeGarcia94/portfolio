@@ -132,7 +132,7 @@ export default {
       <p class="text-center">
         Todavía no hay proyectos. Estamos trabajando en ellos.
       </p>
-      <img class="mx-auto" src="src/assets/img/herramientas.png" alt="" />
+      <img class="mx-auto" src="@/assets/img/herramientas.png" alt="" />
     </div>
   </div>
 </template>
