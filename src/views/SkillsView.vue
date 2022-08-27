@@ -9,7 +9,7 @@ import jQuery from '/src/assets/img/jQuery.png';
 import vuejs from '/src/assets/img/vuejs.png';
 import php from '/src/assets/img/php.png';
 import laravel from '/src/assets/img/laravel.png';
-import Symfony from '/src/assets/img/Symfony.png';
+import Symfony from '/src/assets/img/symfony.png';
 import docker from '/src/assets/img/docker.png';
 import mysql from '/src/assets/img/mysql.png';
 import github from '/src/assets/img/github.png';
