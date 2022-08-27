@@ -1,5 +1,22 @@
 <script>
+
 import html from '/src/assets/img/html.png';
+import css from '/src/assets/img/css.png';
+import bootstrap from '/src/assets/img/bootstrap.png';
+import tailwind from '/src/assets/img/Tailwind.png';
+import javascript from '/src/assets/img/javascript.png';
+import jQuery from '/src/assets/img/jQuery.png';
+import vuejs from '/src/assets/img/vuejs.png';
+import php from '/src/assets/img/php.png';
+import laravel from '/src/assets/img/laravel.png';
+import Symfony from '/src/assets/img/Symfony.png';
+import docker from '/src/assets/img/docker.png';
+import mysql from '/src/assets/img/mysql.png';
+import github from '/src/assets/img/github.png';
+import gitlab from '/src/assets/img/gitlab.png';
+import jira from '/src/assets/img/jira.png';
+import confluence from '/src/assets/img/confluence.png';
+
 export default {
   name: "SkillsView",
   props: {},
@@ -15,66 +32,66 @@ export default {
           name: "HTML",
           url: html,
         },
-        // {
-        //   name: "CSS",
-        //   url: "./src/assets/img/css.png",
-        // },
-        // {
-        //   name: "Bootstrap",
-        //   url: "./src/assets/img/bootstrap.png",
-        // },
-        // {
-        //   name: "Tailwind CSS",
-        //   url: "./src/assets/img/Tailwind.png",
-        // },
-        // {
-        //   name: "JavaScript",
-        //   url: "./src/assets/img/javascript.png",
-        // },
-        // {
-        //   name: "JQuery",
-        //   url: "./src/assets/img/jQuery.png",
-        // },
-        // {
-        //   name: "Vue",
-        //   url: "./src/assets/img/vuejs.png",
-        // },
-        // {
-        //   name: "PHP",
-        //   url: "./src/assets/img/php.png",
-        // },
-        // {
-        //   name: "Laravel",
-        //   url: "./src/assets/img/laravel.png",
-        // },
-        // {
-        //   name: "Symfony",
-        //   url: "./src/assets/img/Symfony.png",
-        // },
-        // {
-        //   name: "",
-        //   url: "./src/assets/img/docker.png",
-        // },
-        // {
-        //   name: "",
-        //   url: "./src/assets/img/mysql.png",
-        // },
-        // {
-        //   name: "Git/GitHub",
-        //   url: "./src/assets/img/github.png",
-        // },
-        // {
-        //   name: "",
-        //   url: "./src/assets/img/gitlab.png",
-        // },
-        // {
-        //   name: "Jira",
-        //   url: "./src/assets/img/jira.png",
-        // },
-        // {
-        //   name: "Confluence",
-        //   url: "./src/assets/img/confluence.png",
-        // },
+        {
+          name: "CSS",
+          url: css,
+        },
+        {
+          name: "Bootstrap",
+          url: bootstrap,
+        },
+        {
+          name: "Tailwind CSS",
+          url: tailwind,
+        },
+        {
+          name: "JavaScript",
+          url: javascript,
+        },
+        {
+          name: "JQuery",
+          url: jQuery,
+        },
+        {
+          name: "Vue",
+          url: vuejs,
+        },
+        {
+          name: "PHP",
+          url: php,
+        },
+        {
+          name: "Laravel",
+          url: laravel,
+        },
+        {
+          name: "Symfony",
+          url: Symfony,
+        },
+        {
+          name: "",
+          url: docker,
+        },
+        {
+          name: "",
+          url: mysql,
+        },
+        {
+          name: "Git/GitHub",
+          url: github,
+        },
+        {
+          name: "",
+          url: gitlab,
+        },
+        {
+          name: "Jira",
+          url: jira,
+        },
+        {
+          name: "Confluence",
+          url: confluence,
+        },
       ];
     },
   },
